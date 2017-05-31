@@ -17,9 +17,10 @@ java -jar sudoku.jar [MODE]
 ```
 
 MODE 0:DEFAULT, 1:SPECIFY_PATH, 2:INPUT_STREAM
-0) Using the "DEFAULT" mode the config file (sudoku.csv) has to be in the same directory of the jar executable file (sudoku.jar).
-1) Using the "SPECIFY_PATH "mode, you can indicate the path location of the configuration file and it can be name as you wish.
-2) Using the "INPUT_STREAM" mode, the sudoku input has to be inserted by row. An example of a input row can be: 1,0,2,4,0,0,0,0
+
+- Using the "DEFAULT" mode the config file (sudoku.csv) has to be in the same directory of the jar executable file (sudoku.jar).
+- Using the "SPECIFY_PATH "mode, you can indicate the path location of the configuration file and it can be name as you wish.
+- Using the "INPUT_STREAM" mode, the sudoku input has to be inserted by row. An example of a input row can be: 1,0,2,4,0,0,0,0
 
 ## NB: 
 - in the config file the sudoku cells must be separed by ","
