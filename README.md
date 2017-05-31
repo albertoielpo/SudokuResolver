@@ -2,15 +2,6 @@
 
 A Java program that solve the sudoku game 
 
-## Author
-Alberto Ielpo
-
-## Website
-www.ielpo.net
-
-## Version
-1.0
-
 ## Info
 
 The sudoku game can be inserted in the program by:
@@ -24,6 +15,7 @@ In the 2) case the sudoku game has to be inserted by row.
 ```
 java -jar sudoku.jar [MODE]
 ```
+
 MODE 0:DEFAULT, 1:SPECIFY_PATH, 2:INPUT_STREAM
 0) Using the "DEFAULT" mode the config file (sudoku.csv) has to be in the same directory of the jar executable file (sudoku.jar).
 1) Using the "SPECIFY_PATH "mode, you can indicate the path location of the configuration file and it can be name as you wish.
@@ -37,3 +29,12 @@ This software is open source
 "Sudoku Resolver" is licensed under the GPL v3 or later. 
 
 For futher info, bug report or whatever, drop an email to: alberto@ielpo.net
+
+## Author
+Alberto Ielpo
+
+## Website
+www.ielpo.net
+
+## Version
+1.0
